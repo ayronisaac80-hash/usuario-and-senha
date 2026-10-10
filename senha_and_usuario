@@ -1,0 +1,28 @@
+senha ="6767"
+usuario = "ayron"
+
+tentativa_usuario = (input("digite seu usuario:"))
+ 
+if (tentativa_usuario == "ayron"):
+    print ("usuario correto")
+
+elif (tentativa_usuario != "ayron"):
+    print ("usuario errado")
+
+tentativa_senha = (input("digite sua senha:"))
+
+if (tentativa_senha == "6767"):
+    print ("senha correta")
+
+elif (tentativa_senha != "6767"):
+    print ("senha errada")
+    
+    
+    
+    
+    
+if (tentativa_senha == senha and tentativa_usuario == usuario ):
+    print("bem vindo ao app X")
+    
+elif (tentativa_senha != senha and tentativa_usuario != usuario ):
+    print ("tente novamente")
